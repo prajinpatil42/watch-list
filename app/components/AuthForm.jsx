@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { Auth } from "@supabase/auth-ui-react";
 
@@ -13,7 +13,7 @@ export default function AuthForm() {
       view="magic_link"
       showLinks={false}
       providers={[]}
-      redirectTo="https://watch-list-crud.vercel.app//auth/callback"
+      redirectTo='https://watch-list-crud.vercel.app/auth/callback'
       appearance={{
         theme: "dark",
         button: {
@@ -21,8 +21,8 @@ export default function AuthForm() {
         },
         input: {
           className: "bg-gray-700 border-gray-600 text-white",
-        },
+        }
       }}
     />
-  );
+  )
 }
