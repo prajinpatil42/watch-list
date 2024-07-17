@@ -13,7 +13,7 @@ export default function AuthForm() {
       view="magic_link"
       showLinks={false}
       providers={[]}
-      redirectTo={process.env.NEXT_PUBLIC_REDIRECT_URL}
+      redirectTo='https://watch-list-crud.vercel.app/auth/callback'
       appearance={{
         theme: "dark",
         button: {
